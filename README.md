@@ -1,8 +1,8 @@
-# Talking GenAI Avatar ChatBot
+# GenAI-Talking-Avatar-Chatbot
 
-**Talking GenAI Avatar ChatBot** is a web application that allows users to interact with an AI-powered talking chatbot with a static avatar. The chatbot uses **AWS Bedrock** for generating responses and **Google Text-to-Speech (gTTS)** for voice output. The backend is built with **FastAPI**, and the frontend uses **Streamlit** for the user interface.
+**GenAI-Talking-Avatar-Chatbot** is a web application that allows users to interact with an AI-powered talking chatbot with a static avatar. The chatbot uses **AWS Bedrock** for generating responses and **Google Text-to-Speech (gTTS)** for voice output. The backend is built with **FastAPI**, and the frontend uses **Streamlit** for the user interface.
 
-## Major Use Cases
+## Features
 
 ### API Backend (`api.py`)
 - Provides an API endpoint to handle chat requests.
@@ -30,8 +30,9 @@
 ## Requirements
 - Python 3.8+
 - AWS credentials configured in ~/.aws/config and ~/.aws/credentials
+- Refer to the Requirements.txt for other dependencies
 
-## Installation
+## Setup
 - Clone the repository:
     git clone https://github.com/yourusername/genai-avatar-chat.git
     cd genai-avatar-chat
