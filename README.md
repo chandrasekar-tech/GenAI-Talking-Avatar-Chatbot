@@ -47,11 +47,8 @@ Start the API Server
 - Start the FastAPI server:
     uvicorn api:app --reload # or python -m uvicorn api:app --reload
 
-Start the Chat Frontend
-- Open another terminal and navigate to the src directory:
-- streamlit run chat_frontend.py # or python -m streamlit run chat_frontend.py
-
 Start the Streamlit application:
+- Open another terminal and navigate to the src directory:
 - streamlit run chat_frontend.py # or python -m streamlit run chat_frontend.py
 
 Access the Application
@@ -65,5 +62,8 @@ region = us-east-1
 
 ## License
 This project is licensed under the MIT License.
+
+## Disclaimer
+This project is a personal Proof of Concept (PoC) to explore Generative AI capabilities using LangChain and AWS Bedrock. It is not designed for production use and does not conform to enterprise standards.
 
 
